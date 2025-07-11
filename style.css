@@ -458,7 +458,7 @@ display:block;
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 60px; /* below header */
   left: 0;
   width: 100%;
