@@ -466,7 +466,12 @@ display:block;
 	{
 	width:100%;
 	height:auto;
-	
+	display:block;
+	}
+#about
+	{
+	margin-top:0;
+		padding:20px;
 	}
 }
 .navbar
