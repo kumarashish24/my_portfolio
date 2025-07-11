@@ -406,6 +406,44 @@ font-size:2.4rem;
 color:var(--second-bg-color);
 }
 /*BREAKPOINTS*/
+.home-img img {
+  width: 35vw;
+  max-width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+/* Fix spacing below home section */
+.home {
+  padding-bottom: 0;
+}
+
+/* Fix About image margin-top */
+.about-img img {
+  width: 35vw;
+  max-width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+
+/* Portfolio responsiveness fix */
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .portfolio-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
 @media (max-width:1200px)
 {
