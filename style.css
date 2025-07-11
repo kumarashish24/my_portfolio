@@ -496,31 +496,9 @@ flex-direction:column;
 .home-img img
 {
 width:70vw;
-margin-top: 50rem;
+margin-top:300px;
 }
-	.home-img {
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-  max-width: 100%;
-  height: auto;
-}
-  .home {
-    flex-direction: column;
-    gap: 2rem; /* keeps spacing between text and image */
-    padding-top: 100px; /* enough space for fixed navbar */
-  }
-
-  #about {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-  }
-
-  .home-img {
-    margin-bottom: 0 !important;
-  }
-}
-
+	
 
 
 .about
