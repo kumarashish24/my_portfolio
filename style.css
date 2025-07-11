@@ -467,7 +467,26 @@ header {
   top: 0;
   z-index: 1000;
 }
+.navbar {
+  position: absolute;
+  top: 60px; /* below header */
+  left: 0;
+  width: 100%;
+  background-color: var(--bg-color);
+  padding: 1rem 3%;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+  z-index: 999;
+}
 
+/* Menu Icon */
+#menu-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  display: none;
+}
 #img-1
 	{
 	margin-bottom:0;
