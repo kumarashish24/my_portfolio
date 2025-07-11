@@ -498,6 +498,15 @@ flex-direction:column;
 width:70vw;
 margin-top: 50rem;
 }
+	.home-img {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+
 .about
 {
 flex-direction:column-reverse;	
