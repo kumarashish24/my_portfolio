@@ -79,4 +79,20 @@ function sendToWhatsApp() {
     }
   }
 
+  const menuIcon = document.getElementById('menu-icon');
+  const navbar = document.getElementById('navbar');
+
+  function toggleNavbar() {
+    navbar.style.display = (navbar.style.display === 'block') ? 'none' : 'block';
+  }
+
+  // Optional: Close navbar when clicking outside
+  document.addEventListener('click', function(event) {
+    if (!navbar.contains(event.target) && event.target.id !== 'menu-icon') {
+      navbar.style.display = 'none';
+    }
+  });
+
+  // Burger icon click
+  menuIcon.addEventListener('click', toggleNavbar);
 
