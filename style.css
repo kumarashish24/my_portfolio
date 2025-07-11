@@ -92,7 +92,7 @@ display:none;
 display:flex;
 justify-content:center;	
 align-items:center;
-margin-bottom:-450px;
+
 	
 }
 .home-img img
@@ -483,6 +483,7 @@ margin:3rem 0;
 .home 
 {
 flex-direction:column;	
+margin-bottom:-450px;
 }
 .home-content h3
 {
