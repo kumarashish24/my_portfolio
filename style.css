@@ -505,6 +505,22 @@ margin-top: 50rem;
   max-width: 100%;
   height: auto;
 }
+  .home {
+    flex-direction: column;
+    gap: 2rem; /* keeps spacing between text and image */
+    padding-top: 100px; /* enough space for fixed navbar */
+  }
+
+  #about {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .home-img {
+    margin-bottom: 0 !important;
+  }
+}
+
 
 
 .about
