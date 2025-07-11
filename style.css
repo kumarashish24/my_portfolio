@@ -414,10 +414,7 @@ html
 font-size:55%;	
 
 }
-.home
-	{
-	height:	1500px;
-	}
+
 
 @media (max-width:991px)
 {
@@ -450,10 +447,6 @@ padding:2rem 3%;
 {
 min-height:auto;	
 }
-.home
-	{
-	height:	1500;
-	}
 }
 
 @media (max-width:768px)
@@ -462,6 +455,18 @@ min-height:auto;
 {
 display:block;	
 	
+}
+.home
+	{
+	padding-bottom:0;
+	margin-bottom:0;
+	}
+.home .home-img
+	{
+	width:100%;
+	height:auto;
+	display:block;
+	}
 }
 .navbar
 {
