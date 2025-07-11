@@ -412,7 +412,12 @@ color:var(--second-bg-color);
 html
 {
 font-size:55%;	
+
 }
+.home
+	{
+	height:	1500px;
+	}
 
 @media (max-width:991px)
 {
@@ -444,7 +449,11 @@ padding:2rem 3%;
 .contact
 {
 min-height:auto;	
-}	
+}
+.home
+	{
+	height:	1500;
+	}
 }
 
 @media (max-width:768px)
